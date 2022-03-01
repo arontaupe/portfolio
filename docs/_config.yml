@@ -12,18 +12,18 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "mint" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en"
+locale                   : "en-US"
 title                    : "Aron Petau"
 title_separator          : "-"
 subtitle                 : "Draft Version" # site tagline that appears below site title in masthead
 name                     : "Aron Petau"
 description              : "Here I display a selection of my recent work"
-url                      : "https://arontaupe.github.io"
-baseurl                  : "/portfolio"
+#url                      : "https://arontaupe.github.io"
+#baseurl                  : "/portfolio"
 repository               : arontaupe/portfolio
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -115,8 +115,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  #- /docs # ignore Minimal Mistakes /docs
-  #- /test # ignore Minimal Mistakes /test
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
