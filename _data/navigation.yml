@@ -5,8 +5,8 @@ main:
     url: /projects/
   - title: "Shredder"
     url: /shredder/
-  - title: "Categories"
-    url: /categories/
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "Tags"
     url: /tags/
   - title: "Pages"
