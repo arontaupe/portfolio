@@ -9,18 +9,18 @@ locale                   : "en"
 title                    : "Portfolio"
 title_separator          : "-"
 subtitle                 : "Draft Version" # site tagline that appears below site title in masthead
-name                     : "Aron Petau"
-description              : "Here I display a selection of my recent work"
-url                      : "https://arontaupe.github.io"
+name                     : &name "Aron Petau"
+description              : &description "Here I display a selection of my recent work"
+url                      : https://arontaupe.github.io
 baseurl                  : "/portfolio"
-repository               : arontaupe/portfolio
+repository               : "arontaupe/portfolio"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -69,7 +69,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter "shar0n"
 facebook:
   username               :
   app_id                 :
@@ -106,7 +106,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/arontaupe"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -169,6 +169,52 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+    portfolio:
+      output: true
+      permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 # Sass/SCSS
 sass:
