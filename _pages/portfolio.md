@@ -14,7 +14,7 @@ intro:
 
 sidebar:
   title: "Portfolio Navigator"
-  nav: portfolio-sidebar
+  nav: "portfolio-sidebar"
 ---
 
 {% include feature_row id="intro" type="center" %}
