@@ -3,6 +3,7 @@ title: "Home"
 layout: splash
 permalink: /
 date: 2022-03-02T11:48:41-04:00
+author: "Aron Petau"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

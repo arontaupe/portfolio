@@ -1,5 +1,6 @@
 ---
 permalink: /privacy/
+layout: default
 title: "Terms and Privacy Statement"
 last_modified_at: 2022-03-02T12:42:38-04:00
 toc: true
