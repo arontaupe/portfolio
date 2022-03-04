@@ -4,8 +4,11 @@ layout: splash
 permalink: /
 date: 2022-03-02T11:48:41-04:00
 author: "Aron Petau"
+
 header:
-  overlay_image: /assets/images/grass_blur.jpg
+  image:
+    feature: grass_blur.jpg
+    credit: Aron Petau
   actions:
     - label: "Directly to the Portfolio"
       url: "https://arontaupe.github.io/portfolio/portfolio"
