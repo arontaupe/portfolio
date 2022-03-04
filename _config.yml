@@ -8,15 +8,15 @@ minimal_mistakes_skin    : "mint" #"default" # "air", "aqua", "contrast", "dark"
 locale                   : "en"
 title                    : "Portfolio"
 title_separator          : "-"
-subtitle                 : "Draft Version" # site tagline that appears below site title in masthead
+subtitle                 : "Application for Design & Computation" # site tagline that appears below site title in masthead
 name                     : &name "Aron Petau"
 description              : &description "Here I display a selection of my recent work"
 url                      : https://arontaupe.github.io
 baseurl                  : "/portfolio"
 repository               : "arontaupe/portfolio"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "assets/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "Aron Petau" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -70,10 +70,6 @@ baidu_site_verification  :
 # Social Sharing
 twitter:
   username               : &twitter "shar0n"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -87,15 +83,15 @@ analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : true # true, false (default)
 
 
 # Site Author
 author:
   name             : "Aron Petau"
-  avatar           : "/assets/img/aron_avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Germany"
+  avatar           : "/assets/aron_avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Cognitive Scientist, Programmer, 3D Modeler"
+  location         : "Osnabrück, Germany"
   email            : aron@petau.net
 
 # Site Footer
@@ -107,9 +103,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arontaupe"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+
 
 
 # Reading Files
@@ -141,8 +135,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-  #- /docs # ignore Minimal Mistakes /docs
-  #- /test # ignore Minimal Mistakes /test
+
 keep_files:
   - .git
   - .svn
@@ -236,7 +229,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  #- github-pages
+
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -245,7 +238,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  #- github-pages
 
 
 # Archives
