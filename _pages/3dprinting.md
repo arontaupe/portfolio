@@ -1,5 +1,5 @@
 ---
-layout: default
+#layout: default
 title: 3D Printing
 permalink: /3dprinting/
 author: "Aron Petau"

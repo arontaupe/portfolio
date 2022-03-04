@@ -1,6 +1,6 @@
 ---
 permalink: /motivation/
-layout: default
+#layout: default
 title: "Motivation"
 excerpt: "Aron writes about the future"
 layouts_gallery:
