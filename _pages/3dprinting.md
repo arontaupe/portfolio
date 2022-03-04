@@ -2,6 +2,9 @@
 #layout: default
 title: 3D Printing
 permalink: /3dprinting/
+excerpt: "Aron writes about 3D Printing"
+last_modified_at: 2021-05-11T10:23:16-04:00
+toc: true
 author: "Aron Petau"
 ---
 

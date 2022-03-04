@@ -5,7 +5,7 @@ permalink: /
 date: 2022-03-02T11:48:41-04:00
 author: "Aron Petau"
 header:
-  overlay_image: /assets/grass_blur.jpg
+  overlay_image: /assets/images/grass_blur.jpg
   actions:
     - label: "Directly to the Portfolio"
       url: "https://arontaupe.github.io/portfolio/portfolio"
