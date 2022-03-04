@@ -9,7 +9,5 @@ sidebar:
   nav: "portfolio-sidebar"
 ---
 
-{% include feature_row id="intro" type="center" %}
-
 
 This will be the central location grouping all projects
