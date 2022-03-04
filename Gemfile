@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
-gem "jekyll_picture_tag", group: :jekyll_plugins
+
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
@@ -12,5 +12,5 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
-  gem "jekyll-picture-tag"
+  gem "jekyll_picture_tag"
 end
